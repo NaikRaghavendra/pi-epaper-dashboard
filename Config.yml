@@ -1,0 +1,5 @@
+weather:
+    lat: 28.63576
+    lon: 77.22445
+    openweathermapapikey: 
+    refreshtimeoutinmins: 5

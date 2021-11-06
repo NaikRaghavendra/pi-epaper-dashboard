@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458332 26.458334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="DarkClouds.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="50px"
+     inkscape:zoom="9.269925"
+     inkscape:cx="54.746937"
+     inkscape:cy="36.030497"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.170923;stroke-linejoin:round;stroke-dasharray:0.170923, 0.341846"
+       id="path1704"
+       cx="21.33802"
+       cy="16.42275"
+       rx="5.1150723"
+       ry="4.8498616" />
+    <ellipse
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.207671;stroke-linejoin:round;stroke-dasharray:0.207671, 0.415342"
+       id="path2982"
+       cx="4.8080082"
+       cy="16.844255"
+       rx="4.7466583"
+       ry="4.4135513" />
+    <circle
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.369601;stroke-linejoin:round;stroke-dasharray:0.369601, 0.7392"
+       id="path1819"
+       cx="16.885643"
+       cy="10.335277"
+       r="6.0150046" />
+    <ellipse
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.170923;stroke-linejoin:round;stroke-dasharray:0.170923, 0.341846"
+       id="ellipse1903"
+       cx="9.9376535"
+       cy="12.4401"
+       rx="5.1150723"
+       ry="4.8498616" />
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.270865;stroke-linejoin:round;stroke-dasharray:0.270865, 0.541728"
+       id="rect1927"
+       width="17.209757"
+       height="5.8195639"
+       x="4.6451631"
+       y="15.436341" />
+  </g>
+</svg>
