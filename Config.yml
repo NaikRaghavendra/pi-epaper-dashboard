@@ -9,4 +9,4 @@ news:
     topicsquery: ""
     country: "in"
     category: ""
-    displayrefreshtimeoutinmins: 15
+    displayrefreshtimeoutinmins: 7
