@@ -1,5 +1,12 @@
 weather:
     lat: 28.63576
     lon: 77.22445
-    openweathermapapikey: 
+    openweathermapapikey:
     refreshtimeoutinmins: 5
+news:
+    newsapikey:
+    refreshtimeoutinmins: 60
+    topicsquery: ""
+    country: "in"
+    category: ""
+    displayrefreshtimeoutinmins: 15

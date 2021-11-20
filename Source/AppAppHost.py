@@ -9,6 +9,7 @@ import yaml
 from PIL import Image, ImageDraw
 
 import Apps.MainWeather as AWMA
+import Apps.NewsHeadlinesApp as NHA
 import Apps.StatusClock as ACA
 import Apps.StatusCurrentTemp as SCT
 import Apps.StatusCurrentWeather as SCW
@@ -89,6 +90,7 @@ class AppHost:
         self._applist.append(SCT.StatusCurrentWeatherTempApp(self, statustemprect,self._wm))
         self._applist.append(SCW.StatusCurrentWeatherIconApp(self, statuscwrect,self._wm))
         self._applist.append(AWMA.MainWeatherApp(self, mainapprect,self._wm))
+        self._applist.append(NHA.NewsHeadlinesApp(self, mainapprect,self._config["news"]))
         self._applist[-1].requestUpdate()
 
     def _initloop(self):
