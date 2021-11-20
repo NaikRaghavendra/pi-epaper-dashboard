@@ -75,39 +75,39 @@
        x="4.6451631"
        y="15.436341" />
     <ellipse
-       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.319537;stroke-linejoin:round;stroke-dasharray:0.319537, 0.639072"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.293911;stroke-linejoin:round;stroke-dasharray:0.293911, 0.587822"
        id="circle2020"
-       cx="16.842941"
-       cy="10.611387"
-       rx="5.105113"
-       ry="5.2971587" />
+       cx="16.745106"
+       cy="10.780243"
+       rx="4.7233062"
+       ry="4.8438854" />
     <ellipse
-       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.150498;stroke-linejoin:round;stroke-dasharray:0.150498, 0.300997"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.14331;stroke-linejoin:round;stroke-dasharray:0.14331, 0.286621"
        id="ellipse2040"
-       cx="10.234982"
-       cy="12.848608"
-       rx="4.4993877"
-       ry="4.2745595" />
+       cx="10.417439"
+       cy="13.082129"
+       rx="4.2421184"
+       ry="4.1110554" />
     <ellipse
-       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.16229;stroke-linejoin:round;stroke-dasharray:0.16229, 0.324581"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.151364;stroke-linejoin:round;stroke-dasharray:0.151364, 0.302729"
        id="ellipse2060"
-       cx="4.8510437"
-       cy="16.824522"
-       rx="3.7457891"
-       ry="3.4155807" />
+       cx="5.164784"
+       cy="16.834055"
+       rx="3.5777695"
+       ry="3.1107039" />
     <ellipse
-       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.138354;stroke-linejoin:round;stroke-dasharray:0.138354, 0.276708"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.131818;stroke-linejoin:round;stroke-dasharray:0.131818, 0.263636"
        id="ellipse2080"
-       cx="21.220675"
-       cy="16.367785"
-       rx="4.2140436"
-       ry="3.8571312" />
+       cx="20.898962"
+       cy="16.155224"
+       rx="3.9260023"
+       ry="3.7581816" />
     <rect
        style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.270865;stroke-linejoin:round;stroke-dasharray:0.270865, 0.541728"
        id="rect2100"
        width="17.209757"
        height="5.8195639"
-       x="4.4171605"
-       y="14.4204" />
+       x="4.3450246"
+       y="14.083134" />
   </g>
 </svg>
