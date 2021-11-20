@@ -108,5 +108,5 @@ class NewsHeadlinesApp(BA.BaseApp):
 
         textrect = drawrect.shrink(PT.Point(2,2), PT.Point(2,2))
 
-        TWH.showWrappedText(headlinetoshow,dictDraw,textrect,fontfamily,30,6)
+        TWH.showWrappedText(headlinetoshow,dictDraw,textrect,boldfontfamily,30,6)
 
