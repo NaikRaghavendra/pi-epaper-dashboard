@@ -28,5 +28,8 @@ class StatusClockApp(BA.BaseApp):
         
         time_draw = ImageDraw.Draw(image)
         # fill background
-        time_draw.rounded_rectangle(self._rect.coords(), fill = 1, radius = 4, outline=0, width=2)
-        time_draw.text(self._rect.tl.offset(PT.Point(0,-2)).coords(),texttoshow,font=self._bfont)
+        time_draw.rectangle(self._rect.coords(), fill = 1, outline=255)
+
+        clockrect = self._rect.shrink(PT.Point(0,0), PT.Point(1,0))
+        time_draw.rounded_rectangle(clockrect.coords(), fill = 1, radius = 4, outline=0, width=2)
+        time_draw.text(clockrect.offset(PT.Point(0,-2)).coords(),texttoshow,font=self._bfont)

@@ -96,17 +96,17 @@ class NewsHeadlinesApp(BA.BaseApp):
         logging.debug("Updating Latest News")
         headlinetoshow = self._getheadlinetodisplay()
         
-        apprectangle = self._rect.shrink(PT.Point(1, 3), PT.Point(1, 1))
-
-        drawrect = apprectangle.shrink(PT.Point(1,2), PT.Point(1,2))
-        
         dictDraw = ImageDraw.Draw(image)
 
         # Fill background with white
-        dictDraw.rectangle(self._rect.coords(), fill=255)
-        dictDraw.rounded_rectangle(drawrect.coords(),radius = 2, fill = 2, width =2, outline= 0)
+        dictDraw.rectangle(self._rect.coords(), fill=255, outline= 255)
 
-        textrect = drawrect.shrink(PT.Point(2,2), PT.Point(2,2))
+        apprectangle = self._rect.shrink(PT.Point(1, 1), PT.Point(1, 1))
+
+        drawrect = apprectangle.shrink(PT.Point(0,1), PT.Point(1,0))
+
+        dictDraw.rounded_rectangle(drawrect.coords(),radius = 4)
+        textrect = drawrect.shrink(PT.Point(2,1), PT.Point(2,1))
 
         TWH.showWrappedText(headlinetoshow,dictDraw,textrect,boldfontfamily,30,6)
 
