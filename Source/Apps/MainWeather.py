@@ -34,7 +34,6 @@ class MainWeatherApp(BA.BaseApp):
         sp_coords = sunpositionrect.coords()
         self._sp = SP.SunPosition(sp_coords[0],sp_coords[1],sp_coords[2],sp_coords[3],SP.SunPositionModel(self._wm))
 
-        self.requestUpdate()
 
     def requestUpdate(self):
         self.apphost.queue(self)

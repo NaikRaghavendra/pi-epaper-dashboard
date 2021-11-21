@@ -79,9 +79,9 @@ class AppHost:
         screenrect = RT.Rectangle(PT.Point(0, 0), PT.Point(self._epd.height(), self._epd.width()))
         apprect = screenrect.shrink(PT.Point(2,2),PT.Point(2,2))
         (statusrect,mainapprect) = apprect.partition_y(22/screenrect.height())
-        (statuslhsrect, statusrhsrect) = statusrect.partition_x(0.55)
-        (statusunusedrhsrect,statusclockrect) = statusrhsrect.partition_x(0.4)
-        (statustemprect, statuscwrect) = statuslhsrect.partition_x(0.7)
+        (statuslhsrect, statusrhsrect) = statusrect.partition_x(0.48)
+        (statusunusedrhsrect,statusclockrect) = statusrhsrect.partition_x(0.48)
+        (statustemprect, statuscwrect) = statuslhsrect.partition_x(0.75)
 
         mainapprect = mainapprect.shrink(PT.Point(0,1),PT.Point(0,1))
 
