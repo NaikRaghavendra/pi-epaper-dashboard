@@ -1,7 +1,6 @@
 import json
 import logging
 import os
-import random
 import sys
 import traceback
 import requests
@@ -85,8 +84,7 @@ class NewsHeadlinesApp(BA.BaseApp):
                 self._displayindex = 0
         
         if(indextouse > -1):
-            headlinetoreturn = random.choice(self._latestheadlines)
-            #headlinetoreturn = self._latestheadlines[indextouse]
+            headlinetoreturn = self._latestheadlines[indextouse]
         else:
             headlinetoreturn = "Error! : No news headlines to display"
 
