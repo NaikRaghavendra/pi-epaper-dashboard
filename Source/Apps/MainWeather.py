@@ -26,7 +26,7 @@ class MainWeatherApp(BA.BaseApp):
         self._wc = WC.WindCompass(windcomprect,WC.WindModel(self._wm))
 
         rightrect = rightrect.shrink(PT.Point(0,1), PT.Point(0,0))
-        (currentweatherrect, sunpositionrect) = rightrect.partition_y(0.36) 
+        (currentweatherrect, sunpositionrect) = rightrect.partition_y(0.37) 
 
         cw_coords = currentweatherrect.coords()
         self._cw = CW.CurrentWeather(cw_coords[0],cw_coords[1],cw_coords[2],cw_coords[3],CW.CurrentWeatherModel(self._wm))
