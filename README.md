@@ -64,6 +64,6 @@ Add following lines at the end of file
 
 
 ## Application Design
-Project is designed to easily create and integrate new applications. Applications time share the display to show its content. 
+Project is designed to easily create and integrate new applications. Applications time share the display to show their content. 
 
 
