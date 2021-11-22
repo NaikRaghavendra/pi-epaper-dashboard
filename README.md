@@ -57,7 +57,7 @@ Following parameters can be configured in news section of Config.yml
 ## Starting application on Boot
 Add a cronjob to run the script on boot of raspberry pi
 ```bash
-sudo crontab -e
+crontab -e
 ```
 Add following lines at the end of file
 @reboot [FullPathToProjectDir]/run.sh
