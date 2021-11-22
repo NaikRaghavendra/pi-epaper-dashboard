@@ -59,7 +59,7 @@ Add a cronjob to run the script on boot of raspberry pi
 ```bash
 crontab -e
 ```
-Add following lines at the end of file
+Add following lines at the end of file  
 @reboot [FullPathToProjectDir]/run.sh
 
 
