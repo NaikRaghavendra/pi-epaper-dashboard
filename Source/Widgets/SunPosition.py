@@ -6,9 +6,6 @@ import Weather.WeatherQuery as WQ
 from PIL import Image, ImageDraw, ImageFont
 
 
-lat = "15.414260"
-lon = "73.934112"
-
 fontfamily = 'DejaVuSansMono.ttf'
 boldfontfamily = 'DejaVuSansMono-Bold.ttf'
 
@@ -164,17 +161,3 @@ def getMergedRGBImage(blkimage, redimage):
                 (r, g, b) = (0, 0, 0)
             MergedImageRGB.putpixel((x, y), (r, g, b))
     return MergedImageRGB
-
-
-if __name__ == "__main__":
-
-    model = SunPositionModel()
-    app = SunPosition(100, 50, 295, 120, model)
-    HBlackimage = Image.new('1', (296, 152), 255)  # 296*152
-    # 296*152  ryimage: red or yellow image
-    HRYimage = Image.new('1', (296, 152), 255)
-
-    app.display(HBlackimage, HRYimage)
-
-    mergedImage = getMergedRGBImage(HBlackimage, HRYimage)
-    mergedImage.show()
