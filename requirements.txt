@@ -1,5 +1,5 @@
 CairoSVG==2.5.2
-Pillow==9.2.0
+Pillow==10.3.0
 PyYAML==6.0
 requests==2.21.0
 spidev==3.5
